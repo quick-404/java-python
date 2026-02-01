@@ -1,0 +1,3716 @@
+{
+  "type": "Project",
+  "name": "Project",
+  "children": [
+    {
+      "type": "File",
+      "name": "Example.java",
+      "value": "D:\\27201\\AST\\src\\basic\\Example.java",
+      "children": [
+        {
+          "type": "CompilationUnit",
+          "name": "",
+          "line": 1,
+          "column": 1,
+          "endLine": 91,
+          "endColumn": 3,
+          "children": [
+            {
+              "type": "PackageDeclaration",
+              "name": "basic",
+              "line": 1,
+              "column": 1,
+              "endLine": 1,
+              "endColumn": 14,
+              "children": [
+                {
+                  "type": "Name",
+                  "name": "",
+                  "line": 1,
+                  "column": 9,
+                  "endLine": 1,
+                  "endColumn": 13
+                }
+              ]
+            },
+            {
+              "type": "ImportDeclaration",
+              "name": "java.util.List",
+              "line": 3,
+              "column": 1,
+              "endLine": 3,
+              "endColumn": 22,
+              "children": [
+                {
+                  "type": "Name",
+                  "name": "",
+                  "line": 3,
+                  "column": 8,
+                  "endLine": 3,
+                  "endColumn": 21,
+                  "children": [
+                    {
+                      "type": "Name",
+                      "name": "",
+                      "line": 3,
+                      "column": 8,
+                      "endLine": 3,
+                      "endColumn": 16,
+                      "children": [
+                        {
+                          "type": "Name",
+                          "name": "",
+                          "line": 3,
+                          "column": 8,
+                          "endLine": 3,
+                          "endColumn": 11
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ImportDeclaration",
+              "name": "java.util.ArrayList",
+              "line": 4,
+              "column": 1,
+              "endLine": 4,
+              "endColumn": 27,
+              "children": [
+                {
+                  "type": "Name",
+                  "name": "",
+                  "line": 4,
+                  "column": 8,
+                  "endLine": 4,
+                  "endColumn": 26,
+                  "children": [
+                    {
+                      "type": "Name",
+                      "name": "",
+                      "line": 4,
+                      "column": 8,
+                      "endLine": 4,
+                      "endColumn": 16,
+                      "children": [
+                        {
+                          "type": "Name",
+                          "name": "",
+                          "line": 4,
+                          "column": 8,
+                          "endLine": 4,
+                          "endColumn": 11
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ClassOrInterfaceDeclaration",
+              "name": "Example",
+              "line": 6,
+              "column": 1,
+              "endLine": 91,
+              "endColumn": 1,
+              "value": "class",
+              "attrs": {
+                "modifiers": "[public ]",
+                "typeParams": "[]",
+                "extends": "[]",
+                "implements": "[]",
+                "annotations": "[]"
+              },
+              "children": [
+                {
+                  "type": "Modifier",
+                  "name": "",
+                  "line": 6,
+                  "column": 1,
+                  "endLine": 6,
+                  "endColumn": 6
+                },
+                {
+                  "type": "SimpleName",
+                  "name": "",
+                  "line": 6,
+                  "column": 14,
+                  "endLine": 6,
+                  "endColumn": 20
+                },
+                {
+                  "type": "FieldDeclaration",
+                  "name": "",
+                  "line": 8,
+                  "column": 5,
+                  "endLine": 8,
+                  "endColumn": 26,
+                  "value": "int",
+                  "attrs": {
+                    "modifiers": "[private ]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 7,
+                      "column": 5,
+                      "endLine": 7,
+                      "endColumn": 19,
+                      "value": " 字段：基本类型与引用类型"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 8,
+                      "column": 5,
+                      "endLine": 8,
+                      "endColumn": 11
+                    },
+                    {
+                      "type": "VariableDeclarator",
+                      "name": "count",
+                      "line": 8,
+                      "column": 17,
+                      "endLine": 8,
+                      "endColumn": 25,
+                      "value": "int",
+                      "attrs": {
+                        "initializer": "5"
+                      },
+                      "children": [
+                        {
+                          "type": "PrimitiveType",
+                          "name": "",
+                          "line": 8,
+                          "column": 13,
+                          "endLine": 8,
+                          "endColumn": 15
+                        },
+                        {
+                          "type": "SimpleName",
+                          "name": "",
+                          "line": 8,
+                          "column": 17,
+                          "endLine": 8,
+                          "endColumn": 21
+                        },
+                        {
+                          "type": "IntegerLiteralExpr",
+                          "name": "",
+                          "line": 8,
+                          "column": 25,
+                          "endLine": 8,
+                          "endColumn": 25
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "FieldDeclaration",
+                  "name": "",
+                  "line": 9,
+                  "column": 5,
+                  "endLine": 9,
+                  "endColumn": 36,
+                  "value": "String",
+                  "attrs": {
+                    "modifiers": "[private ]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 9,
+                      "column": 5,
+                      "endLine": 9,
+                      "endColumn": 11
+                    },
+                    {
+                      "type": "VariableDeclarator",
+                      "name": "name",
+                      "line": 9,
+                      "column": 20,
+                      "endLine": 9,
+                      "endColumn": 35,
+                      "value": "String",
+                      "attrs": {
+                        "initializer": "\"example\""
+                      },
+                      "children": [
+                        {
+                          "type": "ClassOrInterfaceType",
+                          "name": "String",
+                          "line": 9,
+                          "column": 13,
+                          "endLine": 9,
+                          "endColumn": 18,
+                          "children": [
+                            {
+                              "type": "SimpleName",
+                              "name": "",
+                              "line": 9,
+                              "column": 13,
+                              "endLine": 9,
+                              "endColumn": 18
+                            }
+                          ]
+                        },
+                        {
+                          "type": "SimpleName",
+                          "name": "",
+                          "line": 9,
+                          "column": 20,
+                          "endLine": 9,
+                          "endColumn": 23
+                        },
+                        {
+                          "type": "StringLiteralExpr",
+                          "name": "",
+                          "line": 9,
+                          "column": 27,
+                          "endLine": 9,
+                          "endColumn": 35
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ConstructorDeclaration",
+                  "name": "Example",
+                  "line": 12,
+                  "column": 5,
+                  "endLine": 15,
+                  "endColumn": 5,
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 11,
+                      "column": 5,
+                      "endLine": 11,
+                      "endColumn": 12,
+                      "value": " 无参构造器"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 12,
+                      "column": 5,
+                      "endLine": 12,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 12,
+                      "column": 12,
+                      "endLine": 12,
+                      "endColumn": 18
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 12,
+                      "column": 22,
+                      "endLine": 15,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 13,
+                          "column": 9,
+                          "endLine": 13,
+                          "endColumn": 23,
+                          "attrs": {
+                            "code": "this.count = 1"
+                          },
+                          "children": [
+                            {
+                              "type": "AssignExpr",
+                              "name": "",
+                              "line": 13,
+                              "column": 9,
+                              "endLine": 13,
+                              "endColumn": 22,
+                              "attrs": {
+                                "code": "this.count = 1"
+                              },
+                              "children": [
+                                {
+                                  "type": "FieldAccessExpr",
+                                  "name": "count",
+                                  "line": 13,
+                                  "column": 9,
+                                  "endLine": 13,
+                                  "endColumn": 18,
+                                  "children": [
+                                    {
+                                      "type": "ThisExpr",
+                                      "name": "",
+                                      "line": 13,
+                                      "column": 9,
+                                      "endLine": 13,
+                                      "endColumn": 12
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 13,
+                                      "column": 14,
+                                      "endLine": 13,
+                                      "endColumn": 18
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "IntegerLiteralExpr",
+                                  "name": "",
+                                  "line": 13,
+                                  "column": 22,
+                                  "endLine": 13,
+                                  "endColumn": 22
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 14,
+                          "column": 9,
+                          "endLine": 14,
+                          "endColumn": 30,
+                          "attrs": {
+                            "code": "this.name = \"default\""
+                          },
+                          "children": [
+                            {
+                              "type": "AssignExpr",
+                              "name": "",
+                              "line": 14,
+                              "column": 9,
+                              "endLine": 14,
+                              "endColumn": 29,
+                              "attrs": {
+                                "code": "this.name = \"default\""
+                              },
+                              "children": [
+                                {
+                                  "type": "FieldAccessExpr",
+                                  "name": "name",
+                                  "line": 14,
+                                  "column": 9,
+                                  "endLine": 14,
+                                  "endColumn": 17,
+                                  "children": [
+                                    {
+                                      "type": "ThisExpr",
+                                      "name": "",
+                                      "line": 14,
+                                      "column": 9,
+                                      "endLine": 14,
+                                      "endColumn": 12
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 14,
+                                      "column": 14,
+                                      "endLine": 14,
+                                      "endColumn": 17
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "StringLiteralExpr",
+                                  "name": "",
+                                  "line": 14,
+                                  "column": 21,
+                                  "endLine": 14,
+                                  "endColumn": 29
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ConstructorDeclaration",
+                  "name": "Example",
+                  "line": 18,
+                  "column": 5,
+                  "endLine": 21,
+                  "endColumn": 5,
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 17,
+                      "column": 5,
+                      "endLine": 17,
+                      "endColumn": 12,
+                      "value": " 带参构造器"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 18,
+                      "column": 5,
+                      "endLine": 18,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 18,
+                      "column": 12,
+                      "endLine": 18,
+                      "endColumn": 18
+                    },
+                    {
+                      "type": "Parameter",
+                      "name": "count",
+                      "line": 18,
+                      "column": 20,
+                      "endLine": 18,
+                      "endColumn": 28,
+                      "attrs": {
+                        "type": "int"
+                      },
+                      "children": [
+                        {
+                          "type": "PrimitiveType",
+                          "name": "",
+                          "line": 18,
+                          "column": 20,
+                          "endLine": 18,
+                          "endColumn": 22
+                        },
+                        {
+                          "type": "SimpleName",
+                          "name": "",
+                          "line": 18,
+                          "column": 24,
+                          "endLine": 18,
+                          "endColumn": 28
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Parameter",
+                      "name": "name",
+                      "line": 18,
+                      "column": 31,
+                      "endLine": 18,
+                      "endColumn": 41,
+                      "attrs": {
+                        "type": "String"
+                      },
+                      "children": [
+                        {
+                          "type": "ClassOrInterfaceType",
+                          "name": "String",
+                          "line": 18,
+                          "column": 31,
+                          "endLine": 18,
+                          "endColumn": 36,
+                          "children": [
+                            {
+                              "type": "SimpleName",
+                              "name": "",
+                              "line": 18,
+                              "column": 31,
+                              "endLine": 18,
+                              "endColumn": 36
+                            }
+                          ]
+                        },
+                        {
+                          "type": "SimpleName",
+                          "name": "",
+                          "line": 18,
+                          "column": 38,
+                          "endLine": 18,
+                          "endColumn": 41
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 18,
+                      "column": 44,
+                      "endLine": 21,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 19,
+                          "column": 9,
+                          "endLine": 19,
+                          "endColumn": 27,
+                          "attrs": {
+                            "code": "this.count = count"
+                          },
+                          "children": [
+                            {
+                              "type": "AssignExpr",
+                              "name": "",
+                              "line": 19,
+                              "column": 9,
+                              "endLine": 19,
+                              "endColumn": 26,
+                              "attrs": {
+                                "code": "this.count = count"
+                              },
+                              "children": [
+                                {
+                                  "type": "FieldAccessExpr",
+                                  "name": "count",
+                                  "line": 19,
+                                  "column": 9,
+                                  "endLine": 19,
+                                  "endColumn": 18,
+                                  "children": [
+                                    {
+                                      "type": "ThisExpr",
+                                      "name": "",
+                                      "line": 19,
+                                      "column": 9,
+                                      "endLine": 19,
+                                      "endColumn": 12
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 19,
+                                      "column": 14,
+                                      "endLine": 19,
+                                      "endColumn": 18
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "NameExpr",
+                                  "name": "count",
+                                  "line": 19,
+                                  "column": 22,
+                                  "endLine": 19,
+                                  "endColumn": 26,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 19,
+                                      "column": 22,
+                                      "endLine": 19,
+                                      "endColumn": 26
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 20,
+                          "column": 9,
+                          "endLine": 20,
+                          "endColumn": 25,
+                          "attrs": {
+                            "code": "this.name = name"
+                          },
+                          "children": [
+                            {
+                              "type": "AssignExpr",
+                              "name": "",
+                              "line": 20,
+                              "column": 9,
+                              "endLine": 20,
+                              "endColumn": 24,
+                              "attrs": {
+                                "code": "this.name = name"
+                              },
+                              "children": [
+                                {
+                                  "type": "FieldAccessExpr",
+                                  "name": "name",
+                                  "line": 20,
+                                  "column": 9,
+                                  "endLine": 20,
+                                  "endColumn": 17,
+                                  "children": [
+                                    {
+                                      "type": "ThisExpr",
+                                      "name": "",
+                                      "line": 20,
+                                      "column": 9,
+                                      "endLine": 20,
+                                      "endColumn": 12
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 20,
+                                      "column": 14,
+                                      "endLine": 20,
+                                      "endColumn": 17
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "NameExpr",
+                                  "name": "name",
+                                  "line": 20,
+                                  "column": 21,
+                                  "endLine": 20,
+                                  "endColumn": 24,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 20,
+                                      "column": 21,
+                                      "endLine": 20,
+                                      "endColumn": 24
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "MethodDeclaration",
+                  "name": "sayHello",
+                  "line": 24,
+                  "column": 5,
+                  "endLine": 26,
+                  "endColumn": 5,
+                  "value": "void",
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "typeParams": "[]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 23,
+                      "column": 5,
+                      "endLine": 23,
+                      "endColumn": 11,
+                      "value": " 打印问候"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 24,
+                      "column": 5,
+                      "endLine": 24,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 24,
+                      "column": 17,
+                      "endLine": 24,
+                      "endColumn": 24
+                    },
+                    {
+                      "type": "VoidType",
+                      "name": "",
+                      "line": 24,
+                      "column": 12,
+                      "endLine": 24,
+                      "endColumn": 15
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 24,
+                      "column": 28,
+                      "endLine": 26,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 25,
+                          "column": 9,
+                          "endLine": 25,
+                          "endColumn": 45,
+                          "attrs": {
+                            "code": "System.out.println(\"Hello, \" + name)"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "println",
+                              "line": 25,
+                              "column": 9,
+                              "endLine": 25,
+                              "endColumn": 44,
+                              "attrs": {
+                                "code": "System.out.println(\"Hello, \" + name)",
+                                "args": "[\"Hello, \" + name]"
+                              },
+                              "children": [
+                                {
+                                  "type": "FieldAccessExpr",
+                                  "name": "out",
+                                  "line": 25,
+                                  "column": 9,
+                                  "endLine": 25,
+                                  "endColumn": 18,
+                                  "children": [
+                                    {
+                                      "type": "NameExpr",
+                                      "name": "System",
+                                      "line": 25,
+                                      "column": 9,
+                                      "endLine": 25,
+                                      "endColumn": 14,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 25,
+                                          "column": 9,
+                                          "endLine": 25,
+                                          "endColumn": 14
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 25,
+                                      "column": 16,
+                                      "endLine": 25,
+                                      "endColumn": 18
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 25,
+                                  "column": 20,
+                                  "endLine": 25,
+                                  "endColumn": 26
+                                },
+                                {
+                                  "type": "BinaryExpr",
+                                  "name": "",
+                                  "line": 25,
+                                  "column": 28,
+                                  "endLine": 25,
+                                  "endColumn": 43,
+                                  "children": [
+                                    {
+                                      "type": "StringLiteralExpr",
+                                      "name": "",
+                                      "line": 25,
+                                      "column": 28,
+                                      "endLine": 25,
+                                      "endColumn": 36
+                                    },
+                                    {
+                                      "type": "NameExpr",
+                                      "name": "name",
+                                      "line": 25,
+                                      "column": 40,
+                                      "endLine": 25,
+                                      "endColumn": 43,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 25,
+                                          "column": 40,
+                                          "endLine": 25,
+                                          "endColumn": 43
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "MethodDeclaration",
+                  "name": "printNumbers",
+                  "line": 29,
+                  "column": 5,
+                  "endLine": 33,
+                  "endColumn": 5,
+                  "value": "void",
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "typeParams": "[]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 28,
+                      "column": 5,
+                      "endLine": 28,
+                      "endColumn": 15,
+                      "value": " for 循环示例"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 29,
+                      "column": 5,
+                      "endLine": 29,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 29,
+                      "column": 17,
+                      "endLine": 29,
+                      "endColumn": 28
+                    },
+                    {
+                      "type": "VoidType",
+                      "name": "",
+                      "line": 29,
+                      "column": 12,
+                      "endLine": 29,
+                      "endColumn": 15
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 29,
+                      "column": 32,
+                      "endLine": 33,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ForStmt",
+                          "name": "for(…)",
+                          "line": 30,
+                          "column": 9,
+                          "endLine": 32,
+                          "endColumn": 9,
+                          "attrs": {
+                            "init": "[int i = 0]",
+                            "compare": "i < count",
+                            "update": "[i++]"
+                          },
+                          "children": [
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 30,
+                              "column": 14,
+                              "endLine": 30,
+                              "endColumn": 22,
+                              "attrs": {
+                                "code": "int i = 0"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "i",
+                                  "line": 30,
+                                  "column": 18,
+                                  "endLine": 30,
+                                  "endColumn": 22,
+                                  "value": "int",
+                                  "attrs": {
+                                    "initializer": "0"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "PrimitiveType",
+                                      "name": "",
+                                      "line": 30,
+                                      "column": 14,
+                                      "endLine": 30,
+                                      "endColumn": 16
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 30,
+                                      "column": 18,
+                                      "endLine": 30,
+                                      "endColumn": 18
+                                    },
+                                    {
+                                      "type": "IntegerLiteralExpr",
+                                      "name": "",
+                                      "line": 30,
+                                      "column": 22,
+                                      "endLine": 30,
+                                      "endColumn": 22
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BinaryExpr",
+                              "name": "",
+                              "line": 30,
+                              "column": 25,
+                              "endLine": 30,
+                              "endColumn": 33,
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "i",
+                                  "line": 30,
+                                  "column": 25,
+                                  "endLine": 30,
+                                  "endColumn": 25,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 30,
+                                      "column": 25,
+                                      "endLine": 30,
+                                      "endColumn": 25
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "NameExpr",
+                                  "name": "count",
+                                  "line": 30,
+                                  "column": 29,
+                                  "endLine": 30,
+                                  "endColumn": 33,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 30,
+                                      "column": 29,
+                                      "endLine": 30,
+                                      "endColumn": 33
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "UnaryExpr",
+                              "name": "",
+                              "line": 30,
+                              "column": 36,
+                              "endLine": 30,
+                              "endColumn": 38,
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "i",
+                                  "line": 30,
+                                  "column": 36,
+                                  "endLine": 30,
+                                  "endColumn": 36,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 30,
+                                      "column": 36,
+                                      "endLine": 30,
+                                      "endColumn": 36
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 30,
+                              "column": 41,
+                              "endLine": 32,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 31,
+                                  "column": 13,
+                                  "endLine": 31,
+                                  "endColumn": 43,
+                                  "attrs": {
+                                    "code": "System.out.println(\"i = \" + i)"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 31,
+                                      "column": 13,
+                                      "endLine": 31,
+                                      "endColumn": 42,
+                                      "attrs": {
+                                        "code": "System.out.println(\"i = \" + i)",
+                                        "args": "[\"i = \" + i]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 31,
+                                          "column": 13,
+                                          "endLine": 31,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 31,
+                                              "column": 13,
+                                              "endLine": 31,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 31,
+                                                  "column": 13,
+                                                  "endLine": 31,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 31,
+                                              "column": 20,
+                                              "endLine": 31,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 31,
+                                          "column": 24,
+                                          "endLine": 31,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "BinaryExpr",
+                                          "name": "",
+                                          "line": 31,
+                                          "column": 32,
+                                          "endLine": 31,
+                                          "endColumn": 41,
+                                          "children": [
+                                            {
+                                              "type": "StringLiteralExpr",
+                                              "name": "",
+                                              "line": 31,
+                                              "column": 32,
+                                              "endLine": 31,
+                                              "endColumn": 37
+                                            },
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "i",
+                                              "line": 31,
+                                              "column": 41,
+                                              "endLine": 31,
+                                              "endColumn": 41,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 31,
+                                                  "column": 41,
+                                                  "endLine": 31,
+                                                  "endColumn": 41
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "MethodDeclaration",
+                  "name": "countdown",
+                  "line": 36,
+                  "column": 5,
+                  "endLine": 42,
+                  "endColumn": 5,
+                  "value": "void",
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "typeParams": "[]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 35,
+                      "column": 5,
+                      "endLine": 35,
+                      "endColumn": 17,
+                      "value": " while 循环示例"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 36,
+                      "column": 5,
+                      "endLine": 36,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 36,
+                      "column": 17,
+                      "endLine": 36,
+                      "endColumn": 25
+                    },
+                    {
+                      "type": "VoidType",
+                      "name": "",
+                      "line": 36,
+                      "column": 12,
+                      "endLine": 36,
+                      "endColumn": 15
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 36,
+                      "column": 29,
+                      "endLine": 42,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 37,
+                          "column": 9,
+                          "endLine": 37,
+                          "endColumn": 22,
+                          "attrs": {
+                            "code": "int x = count"
+                          },
+                          "children": [
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 37,
+                              "column": 9,
+                              "endLine": 37,
+                              "endColumn": 21,
+                              "attrs": {
+                                "code": "int x = count"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "x",
+                                  "line": 37,
+                                  "column": 13,
+                                  "endLine": 37,
+                                  "endColumn": 21,
+                                  "value": "int",
+                                  "attrs": {
+                                    "initializer": "count"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "PrimitiveType",
+                                      "name": "",
+                                      "line": 37,
+                                      "column": 9,
+                                      "endLine": 37,
+                                      "endColumn": 11
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 37,
+                                      "column": 13,
+                                      "endLine": 37,
+                                      "endColumn": 13
+                                    },
+                                    {
+                                      "type": "NameExpr",
+                                      "name": "count",
+                                      "line": 37,
+                                      "column": 17,
+                                      "endLine": 37,
+                                      "endColumn": 21,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 37,
+                                          "column": 17,
+                                          "endLine": 37,
+                                          "endColumn": 21
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "WhileStmt",
+                          "name": "while(x > 0)",
+                          "line": 38,
+                          "column": 9,
+                          "endLine": 41,
+                          "endColumn": 9,
+                          "attrs": {
+                            "condition": "x > 0"
+                          },
+                          "children": [
+                            {
+                              "type": "BinaryExpr",
+                              "name": "",
+                              "line": 38,
+                              "column": 16,
+                              "endLine": 38,
+                              "endColumn": 20,
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "x",
+                                  "line": 38,
+                                  "column": 16,
+                                  "endLine": 38,
+                                  "endColumn": 16,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 38,
+                                      "column": 16,
+                                      "endLine": 38,
+                                      "endColumn": 16
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "IntegerLiteralExpr",
+                                  "name": "",
+                                  "line": 38,
+                                  "column": 20,
+                                  "endLine": 38,
+                                  "endColumn": 20
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 38,
+                              "column": 23,
+                              "endLine": 41,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 39,
+                                  "column": 13,
+                                  "endLine": 39,
+                                  "endColumn": 43,
+                                  "attrs": {
+                                    "code": "System.out.println(\"x = \" + x)"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 39,
+                                      "column": 13,
+                                      "endLine": 39,
+                                      "endColumn": 42,
+                                      "attrs": {
+                                        "code": "System.out.println(\"x = \" + x)",
+                                        "args": "[\"x = \" + x]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 39,
+                                          "column": 13,
+                                          "endLine": 39,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 39,
+                                              "column": 13,
+                                              "endLine": 39,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 39,
+                                                  "column": 13,
+                                                  "endLine": 39,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 39,
+                                              "column": 20,
+                                              "endLine": 39,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 39,
+                                          "column": 24,
+                                          "endLine": 39,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "BinaryExpr",
+                                          "name": "",
+                                          "line": 39,
+                                          "column": 32,
+                                          "endLine": 39,
+                                          "endColumn": 41,
+                                          "children": [
+                                            {
+                                              "type": "StringLiteralExpr",
+                                              "name": "",
+                                              "line": 39,
+                                              "column": 32,
+                                              "endLine": 39,
+                                              "endColumn": 37
+                                            },
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "x",
+                                              "line": 39,
+                                              "column": 41,
+                                              "endLine": 39,
+                                              "endColumn": 41,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 39,
+                                                  "column": 41,
+                                                  "endLine": 39,
+                                                  "endColumn": 41
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 40,
+                                  "column": 13,
+                                  "endLine": 40,
+                                  "endColumn": 16,
+                                  "attrs": {
+                                    "code": "x--"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "UnaryExpr",
+                                      "name": "",
+                                      "line": 40,
+                                      "column": 13,
+                                      "endLine": 40,
+                                      "endColumn": 15,
+                                      "children": [
+                                        {
+                                          "type": "NameExpr",
+                                          "name": "x",
+                                          "line": 40,
+                                          "column": 13,
+                                          "endLine": 40,
+                                          "endColumn": 13,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 40,
+                                              "column": 13,
+                                              "endLine": 40,
+                                              "endColumn": 13
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "MethodDeclaration",
+                  "name": "doSomething",
+                  "line": 45,
+                  "column": 5,
+                  "endLine": 51,
+                  "endColumn": 5,
+                  "value": "void",
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "typeParams": "[]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 44,
+                      "column": 5,
+                      "endLine": 44,
+                      "endColumn": 18,
+                      "value": " do-while 示例"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 45,
+                      "column": 5,
+                      "endLine": 45,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 45,
+                      "column": 17,
+                      "endLine": 45,
+                      "endColumn": 27
+                    },
+                    {
+                      "type": "VoidType",
+                      "name": "",
+                      "line": 45,
+                      "column": 12,
+                      "endLine": 45,
+                      "endColumn": 15
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 45,
+                      "column": 31,
+                      "endLine": 51,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 46,
+                          "column": 9,
+                          "endLine": 46,
+                          "endColumn": 18,
+                          "attrs": {
+                            "code": "int y = 0"
+                          },
+                          "children": [
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 46,
+                              "column": 9,
+                              "endLine": 46,
+                              "endColumn": 17,
+                              "attrs": {
+                                "code": "int y = 0"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "y",
+                                  "line": 46,
+                                  "column": 13,
+                                  "endLine": 46,
+                                  "endColumn": 17,
+                                  "value": "int",
+                                  "attrs": {
+                                    "initializer": "0"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "PrimitiveType",
+                                      "name": "",
+                                      "line": 46,
+                                      "column": 9,
+                                      "endLine": 46,
+                                      "endColumn": 11
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 46,
+                                      "column": 13,
+                                      "endLine": 46,
+                                      "endColumn": 13
+                                    },
+                                    {
+                                      "type": "IntegerLiteralExpr",
+                                      "name": "",
+                                      "line": 46,
+                                      "column": 17,
+                                      "endLine": 46,
+                                      "endColumn": 17
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "DoStmt",
+                          "name": "do-while(y < 3)",
+                          "line": 47,
+                          "column": 9,
+                          "endLine": 50,
+                          "endColumn": 24,
+                          "attrs": {
+                            "condition": "y < 3"
+                          },
+                          "children": [
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 47,
+                              "column": 12,
+                              "endLine": 50,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 48,
+                                  "column": 13,
+                                  "endLine": 48,
+                                  "endColumn": 46,
+                                  "attrs": {
+                                    "code": "System.out.println(\"doing: \" + y)"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 48,
+                                      "column": 13,
+                                      "endLine": 48,
+                                      "endColumn": 45,
+                                      "attrs": {
+                                        "code": "System.out.println(\"doing: \" + y)",
+                                        "args": "[\"doing: \" + y]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 48,
+                                          "column": 13,
+                                          "endLine": 48,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 48,
+                                              "column": 13,
+                                              "endLine": 48,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 48,
+                                                  "column": 13,
+                                                  "endLine": 48,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 48,
+                                              "column": 20,
+                                              "endLine": 48,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 48,
+                                          "column": 24,
+                                          "endLine": 48,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "BinaryExpr",
+                                          "name": "",
+                                          "line": 48,
+                                          "column": 32,
+                                          "endLine": 48,
+                                          "endColumn": 44,
+                                          "children": [
+                                            {
+                                              "type": "StringLiteralExpr",
+                                              "name": "",
+                                              "line": 48,
+                                              "column": 32,
+                                              "endLine": 48,
+                                              "endColumn": 40
+                                            },
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "y",
+                                              "line": 48,
+                                              "column": 44,
+                                              "endLine": 48,
+                                              "endColumn": 44,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 48,
+                                                  "column": 44,
+                                                  "endLine": 48,
+                                                  "endColumn": 44
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 49,
+                                  "column": 13,
+                                  "endLine": 49,
+                                  "endColumn": 16,
+                                  "attrs": {
+                                    "code": "y++"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "UnaryExpr",
+                                      "name": "",
+                                      "line": 49,
+                                      "column": 13,
+                                      "endLine": 49,
+                                      "endColumn": 15,
+                                      "children": [
+                                        {
+                                          "type": "NameExpr",
+                                          "name": "y",
+                                          "line": 49,
+                                          "column": 13,
+                                          "endLine": 49,
+                                          "endColumn": 13,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 49,
+                                              "column": 13,
+                                              "endLine": 49,
+                                              "endColumn": 13
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BinaryExpr",
+                              "name": "",
+                              "line": 50,
+                              "column": 18,
+                              "endLine": 50,
+                              "endColumn": 22,
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "y",
+                                  "line": 50,
+                                  "column": 18,
+                                  "endLine": 50,
+                                  "endColumn": 18,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 50,
+                                      "column": 18,
+                                      "endLine": 50,
+                                      "endColumn": 18
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "IntegerLiteralExpr",
+                                  "name": "",
+                                  "line": 50,
+                                  "column": 22,
+                                  "endLine": 50,
+                                  "endColumn": 22
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "MethodDeclaration",
+                  "name": "checkValue",
+                  "line": 54,
+                  "column": 5,
+                  "endLine": 69,
+                  "endColumn": 5,
+                  "value": "void",
+                  "attrs": {
+                    "modifiers": "[public ]",
+                    "typeParams": "[]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 53,
+                      "column": 5,
+                      "endLine": 53,
+                      "endColumn": 29,
+                      "value": " if/else 与 try/catch 示例"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 54,
+                      "column": 5,
+                      "endLine": 54,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 54,
+                      "column": 17,
+                      "endLine": 54,
+                      "endColumn": 26
+                    },
+                    {
+                      "type": "Parameter",
+                      "name": "v",
+                      "line": 54,
+                      "column": 28,
+                      "endLine": 54,
+                      "endColumn": 32,
+                      "attrs": {
+                        "type": "int"
+                      },
+                      "children": [
+                        {
+                          "type": "PrimitiveType",
+                          "name": "",
+                          "line": 54,
+                          "column": 28,
+                          "endLine": 54,
+                          "endColumn": 30
+                        },
+                        {
+                          "type": "SimpleName",
+                          "name": "",
+                          "line": 54,
+                          "column": 32,
+                          "endLine": 54,
+                          "endColumn": 32
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VoidType",
+                      "name": "",
+                      "line": 54,
+                      "column": 12,
+                      "endLine": 54,
+                      "endColumn": 15
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 54,
+                      "column": 35,
+                      "endLine": 69,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "IfStmt",
+                          "name": "if(v > 10)",
+                          "line": 55,
+                          "column": 9,
+                          "endLine": 59,
+                          "endColumn": 9,
+                          "attrs": {
+                            "condition": "v > 10"
+                          },
+                          "children": [
+                            {
+                              "type": "BinaryExpr",
+                              "name": "",
+                              "line": 55,
+                              "column": 13,
+                              "endLine": 55,
+                              "endColumn": 18,
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "v",
+                                  "line": 55,
+                                  "column": 13,
+                                  "endLine": 55,
+                                  "endColumn": 13,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 55,
+                                      "column": 13,
+                                      "endLine": 55,
+                                      "endColumn": 13
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "IntegerLiteralExpr",
+                                  "name": "",
+                                  "line": 55,
+                                  "column": 17,
+                                  "endLine": 55,
+                                  "endColumn": 18
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 55,
+                              "column": 21,
+                              "endLine": 57,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 56,
+                                  "column": 13,
+                                  "endLine": 56,
+                                  "endColumn": 40,
+                                  "attrs": {
+                                    "code": "System.out.println(\"Large\")"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 56,
+                                      "column": 13,
+                                      "endLine": 56,
+                                      "endColumn": 39,
+                                      "attrs": {
+                                        "code": "System.out.println(\"Large\")",
+                                        "args": "[\"Large\"]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 56,
+                                          "column": 13,
+                                          "endLine": 56,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 56,
+                                              "column": 13,
+                                              "endLine": 56,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 56,
+                                                  "column": 13,
+                                                  "endLine": 56,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 56,
+                                              "column": 20,
+                                              "endLine": 56,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 56,
+                                          "column": 24,
+                                          "endLine": 56,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "StringLiteralExpr",
+                                          "name": "",
+                                          "line": 56,
+                                          "column": 32,
+                                          "endLine": 56,
+                                          "endColumn": 38
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 57,
+                              "column": 16,
+                              "endLine": 59,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 58,
+                                  "column": 13,
+                                  "endLine": 58,
+                                  "endColumn": 49,
+                                  "attrs": {
+                                    "code": "System.out.println(\"Small or equal\")"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 58,
+                                      "column": 13,
+                                      "endLine": 58,
+                                      "endColumn": 48,
+                                      "attrs": {
+                                        "code": "System.out.println(\"Small or equal\")",
+                                        "args": "[\"Small or equal\"]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 58,
+                                          "column": 13,
+                                          "endLine": 58,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 58,
+                                              "column": 13,
+                                              "endLine": 58,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 58,
+                                                  "column": 13,
+                                                  "endLine": 58,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 58,
+                                              "column": 20,
+                                              "endLine": 58,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 58,
+                                          "column": 24,
+                                          "endLine": 58,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "StringLiteralExpr",
+                                          "name": "",
+                                          "line": 58,
+                                          "column": 32,
+                                          "endLine": 58,
+                                          "endColumn": 47
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TryStmt",
+                          "name": "try",
+                          "line": 61,
+                          "column": 9,
+                          "endLine": 68,
+                          "endColumn": 9,
+                          "attrs": {
+                            "resources": "[]"
+                          },
+                          "children": [
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 61,
+                              "column": 13,
+                              "endLine": 66,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "IfStmt",
+                                  "name": "if(v < 0)",
+                                  "line": 62,
+                                  "column": 13,
+                                  "endLine": 64,
+                                  "endColumn": 13,
+                                  "attrs": {
+                                    "condition": "v < 0"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "BinaryExpr",
+                                      "name": "",
+                                      "line": 62,
+                                      "column": 17,
+                                      "endLine": 62,
+                                      "endColumn": 21,
+                                      "children": [
+                                        {
+                                          "type": "NameExpr",
+                                          "name": "v",
+                                          "line": 62,
+                                          "column": 17,
+                                          "endLine": 62,
+                                          "endColumn": 17,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 62,
+                                              "column": 17,
+                                              "endLine": 62,
+                                              "endColumn": 17
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "IntegerLiteralExpr",
+                                          "name": "",
+                                          "line": 62,
+                                          "column": 21,
+                                          "endLine": 62,
+                                          "endColumn": 21
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BlockStmt",
+                                      "name": "",
+                                      "line": 62,
+                                      "column": 24,
+                                      "endLine": 64,
+                                      "endColumn": 13,
+                                      "children": [
+                                        {
+                                          "type": "ThrowStmt",
+                                          "name": "throw",
+                                          "line": 63,
+                                          "column": 17,
+                                          "endLine": 63,
+                                          "endColumn": 63,
+                                          "attrs": {
+                                            "expr": "new IllegalArgumentException(\"Negative\")"
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "ObjectCreationExpr",
+                                              "name": "new IllegalArgumentException",
+                                              "line": 63,
+                                              "column": 23,
+                                              "endLine": 63,
+                                              "endColumn": 62,
+                                              "attrs": {
+                                                "type": "IllegalArgumentException",
+                                                "hasAnonymousClassBody": "false"
+                                              },
+                                              "children": [
+                                                {
+                                                  "type": "ClassOrInterfaceType",
+                                                  "name": "IllegalArgumentException",
+                                                  "line": 63,
+                                                  "column": 27,
+                                                  "endLine": 63,
+                                                  "endColumn": 50,
+                                                  "children": [
+                                                    {
+                                                      "type": "SimpleName",
+                                                      "name": "",
+                                                      "line": 63,
+                                                      "column": 27,
+                                                      "endLine": 63,
+                                                      "endColumn": 50
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "StringLiteralExpr",
+                                                  "name": "",
+                                                  "line": 63,
+                                                  "column": 52,
+                                                  "endLine": 63,
+                                                  "endColumn": 61
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 65,
+                                  "column": 13,
+                                  "endLine": 65,
+                                  "endColumn": 43,
+                                  "attrs": {
+                                    "code": "System.out.println(\"Value ok\")"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 65,
+                                      "column": 13,
+                                      "endLine": 65,
+                                      "endColumn": 42,
+                                      "attrs": {
+                                        "code": "System.out.println(\"Value ok\")",
+                                        "args": "[\"Value ok\"]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 65,
+                                          "column": 13,
+                                          "endLine": 65,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 65,
+                                              "column": 13,
+                                              "endLine": 65,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 65,
+                                                  "column": 13,
+                                                  "endLine": 65,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 65,
+                                              "column": 20,
+                                              "endLine": 65,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 65,
+                                          "column": 24,
+                                          "endLine": 65,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "StringLiteralExpr",
+                                          "name": "",
+                                          "line": 65,
+                                          "column": 32,
+                                          "endLine": 65,
+                                          "endColumn": 41
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "CatchClause",
+                              "name": "catch(IllegalArgumentException)",
+                              "line": 66,
+                              "column": 11,
+                              "endLine": 68,
+                              "endColumn": 9,
+                              "attrs": {
+                                "paramType": "IllegalArgumentException"
+                              },
+                              "children": [
+                                {
+                                  "type": "Parameter",
+                                  "name": "ex",
+                                  "line": 66,
+                                  "column": 18,
+                                  "endLine": 66,
+                                  "endColumn": 44,
+                                  "attrs": {
+                                    "type": "IllegalArgumentException"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "ClassOrInterfaceType",
+                                      "name": "IllegalArgumentException",
+                                      "line": 66,
+                                      "column": 18,
+                                      "endLine": 66,
+                                      "endColumn": 41,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 66,
+                                          "column": 18,
+                                          "endLine": 66,
+                                          "endColumn": 41
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 66,
+                                      "column": 43,
+                                      "endLine": 66,
+                                      "endColumn": 44
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BlockStmt",
+                                  "name": "",
+                                  "line": 66,
+                                  "column": 47,
+                                  "endLine": 68,
+                                  "endColumn": 9,
+                                  "children": [
+                                    {
+                                      "type": "ExpressionStmt",
+                                      "name": "",
+                                      "line": 67,
+                                      "column": 13,
+                                      "endLine": 67,
+                                      "endColumn": 61,
+                                      "attrs": {
+                                        "code": "System.out.println(\"Caught: \" + ex.getMessage())"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "MethodCallExpr",
+                                          "name": "println",
+                                          "line": 67,
+                                          "column": 13,
+                                          "endLine": 67,
+                                          "endColumn": 60,
+                                          "attrs": {
+                                            "code": "System.out.println(\"Caught: \" + ex.getMessage())",
+                                            "args": "[\"Caught: \" + ex.getMessage()]"
+                                          },
+                                          "children": [
+                                            {
+                                              "type": "FieldAccessExpr",
+                                              "name": "out",
+                                              "line": 67,
+                                              "column": 13,
+                                              "endLine": 67,
+                                              "endColumn": 22,
+                                              "children": [
+                                                {
+                                                  "type": "NameExpr",
+                                                  "name": "System",
+                                                  "line": 67,
+                                                  "column": 13,
+                                                  "endLine": 67,
+                                                  "endColumn": 18,
+                                                  "children": [
+                                                    {
+                                                      "type": "SimpleName",
+                                                      "name": "",
+                                                      "line": 67,
+                                                      "column": 13,
+                                                      "endLine": 67,
+                                                      "endColumn": 18
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 67,
+                                                  "column": 20,
+                                                  "endLine": 67,
+                                                  "endColumn": 22
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 67,
+                                              "column": 24,
+                                              "endLine": 67,
+                                              "endColumn": 30
+                                            },
+                                            {
+                                              "type": "BinaryExpr",
+                                              "name": "",
+                                              "line": 67,
+                                              "column": 32,
+                                              "endLine": 67,
+                                              "endColumn": 59,
+                                              "children": [
+                                                {
+                                                  "type": "StringLiteralExpr",
+                                                  "name": "",
+                                                  "line": 67,
+                                                  "column": 32,
+                                                  "endLine": 67,
+                                                  "endColumn": 41
+                                                },
+                                                {
+                                                  "type": "MethodCallExpr",
+                                                  "name": "getMessage",
+                                                  "line": 67,
+                                                  "column": 45,
+                                                  "endLine": 67,
+                                                  "endColumn": 59,
+                                                  "attrs": {
+                                                    "code": "ex.getMessage()",
+                                                    "args": "[]"
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "type": "NameExpr",
+                                                      "name": "ex",
+                                                      "line": 67,
+                                                      "column": 45,
+                                                      "endLine": 67,
+                                                      "endColumn": 46,
+                                                      "children": [
+                                                        {
+                                                          "type": "SimpleName",
+                                                          "name": "",
+                                                          "line": 67,
+                                                          "column": 45,
+                                                          "endLine": 67,
+                                                          "endColumn": 46
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "type": "SimpleName",
+                                                      "name": "",
+                                                      "line": 67,
+                                                      "column": 48,
+                                                      "endLine": 67,
+                                                      "endColumn": 57
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "MethodDeclaration",
+                  "name": "main",
+                  "line": 72,
+                  "column": 5,
+                  "endLine": 90,
+                  "endColumn": 5,
+                  "value": "void",
+                  "attrs": {
+                    "modifiers": "[public , static ]",
+                    "typeParams": "[]",
+                    "throws": "[]",
+                    "annotations": "[]"
+                  },
+                  "children": [
+                    {
+                      "type": "LineComment",
+                      "name": "",
+                      "line": 71,
+                      "column": 5,
+                      "endLine": 71,
+                      "endColumn": 25,
+                      "value": " 静态主方法，演示 new 与方法调用"
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 72,
+                      "column": 5,
+                      "endLine": 72,
+                      "endColumn": 10
+                    },
+                    {
+                      "type": "Modifier",
+                      "name": "",
+                      "line": 72,
+                      "column": 12,
+                      "endLine": 72,
+                      "endColumn": 17
+                    },
+                    {
+                      "type": "SimpleName",
+                      "name": "",
+                      "line": 72,
+                      "column": 24,
+                      "endLine": 72,
+                      "endColumn": 27
+                    },
+                    {
+                      "type": "Parameter",
+                      "name": "args",
+                      "line": 72,
+                      "column": 29,
+                      "endLine": 72,
+                      "endColumn": 41,
+                      "attrs": {
+                        "type": "String[]"
+                      },
+                      "children": [
+                        {
+                          "type": "ArrayType",
+                          "name": "",
+                          "line": 72,
+                          "column": 29,
+                          "endLine": 72,
+                          "endColumn": 36,
+                          "children": [
+                            {
+                              "type": "ClassOrInterfaceType",
+                              "name": "String",
+                              "line": 72,
+                              "column": 29,
+                              "endLine": 72,
+                              "endColumn": 34,
+                              "children": [
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 72,
+                                  "column": 29,
+                                  "endLine": 72,
+                                  "endColumn": 34
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "SimpleName",
+                          "name": "",
+                          "line": 72,
+                          "column": 38,
+                          "endLine": 72,
+                          "endColumn": 41
+                        }
+                      ]
+                    },
+                    {
+                      "type": "VoidType",
+                      "name": "",
+                      "line": 72,
+                      "column": 19,
+                      "endLine": 72,
+                      "endColumn": 22
+                    },
+                    {
+                      "type": "BlockStmt",
+                      "name": "",
+                      "line": 72,
+                      "column": 44,
+                      "endLine": 90,
+                      "endColumn": 5,
+                      "children": [
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 73,
+                          "column": 9,
+                          "endLine": 73,
+                          "endColumn": 36,
+                          "attrs": {
+                            "code": "Example ex1 = new Example()"
+                          },
+                          "children": [
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 73,
+                              "column": 9,
+                              "endLine": 73,
+                              "endColumn": 35,
+                              "attrs": {
+                                "code": "Example ex1 = new Example()"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "ex1",
+                                  "line": 73,
+                                  "column": 17,
+                                  "endLine": 73,
+                                  "endColumn": 35,
+                                  "value": "Example",
+                                  "attrs": {
+                                    "initializer": "new Example()"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "ClassOrInterfaceType",
+                                      "name": "Example",
+                                      "line": 73,
+                                      "column": 9,
+                                      "endLine": 73,
+                                      "endColumn": 15,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 73,
+                                          "column": 9,
+                                          "endLine": 73,
+                                          "endColumn": 15
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 73,
+                                      "column": 17,
+                                      "endLine": 73,
+                                      "endColumn": 19
+                                    },
+                                    {
+                                      "type": "ObjectCreationExpr",
+                                      "name": "new Example",
+                                      "line": 73,
+                                      "column": 23,
+                                      "endLine": 73,
+                                      "endColumn": 35,
+                                      "attrs": {
+                                        "type": "Example",
+                                        "hasAnonymousClassBody": "false"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "ClassOrInterfaceType",
+                                          "name": "Example",
+                                          "line": 73,
+                                          "column": 27,
+                                          "endLine": 73,
+                                          "endColumn": 33,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 73,
+                                              "column": 27,
+                                              "endLine": 73,
+                                              "endColumn": 33
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 74,
+                          "column": 9,
+                          "endLine": 74,
+                          "endColumn": 23,
+                          "attrs": {
+                            "code": "ex1.sayHello()"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "sayHello",
+                              "line": 74,
+                              "column": 9,
+                              "endLine": 74,
+                              "endColumn": 22,
+                              "attrs": {
+                                "code": "ex1.sayHello()",
+                                "args": "[]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "ex1",
+                                  "line": 74,
+                                  "column": 9,
+                                  "endLine": 74,
+                                  "endColumn": 11,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 74,
+                                      "column": 9,
+                                      "endLine": 74,
+                                      "endColumn": 11
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 74,
+                                  "column": 13,
+                                  "endLine": 74,
+                                  "endColumn": 20
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 76,
+                          "column": 9,
+                          "endLine": 76,
+                          "endColumn": 46,
+                          "attrs": {
+                            "code": "Example ex2 = new Example(3, \"Alice\")"
+                          },
+                          "children": [
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 76,
+                              "column": 9,
+                              "endLine": 76,
+                              "endColumn": 45,
+                              "attrs": {
+                                "code": "Example ex2 = new Example(3, \"Alice\")"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "ex2",
+                                  "line": 76,
+                                  "column": 17,
+                                  "endLine": 76,
+                                  "endColumn": 45,
+                                  "value": "Example",
+                                  "attrs": {
+                                    "initializer": "new Example(3, \"Alice\")"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "ClassOrInterfaceType",
+                                      "name": "Example",
+                                      "line": 76,
+                                      "column": 9,
+                                      "endLine": 76,
+                                      "endColumn": 15,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 76,
+                                          "column": 9,
+                                          "endLine": 76,
+                                          "endColumn": 15
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 76,
+                                      "column": 17,
+                                      "endLine": 76,
+                                      "endColumn": 19
+                                    },
+                                    {
+                                      "type": "ObjectCreationExpr",
+                                      "name": "new Example",
+                                      "line": 76,
+                                      "column": 23,
+                                      "endLine": 76,
+                                      "endColumn": 45,
+                                      "attrs": {
+                                        "type": "Example",
+                                        "hasAnonymousClassBody": "false"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "ClassOrInterfaceType",
+                                          "name": "Example",
+                                          "line": 76,
+                                          "column": 27,
+                                          "endLine": 76,
+                                          "endColumn": 33,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 76,
+                                              "column": 27,
+                                              "endLine": 76,
+                                              "endColumn": 33
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "IntegerLiteralExpr",
+                                          "name": "",
+                                          "line": 76,
+                                          "column": 35,
+                                          "endLine": 76,
+                                          "endColumn": 35
+                                        },
+                                        {
+                                          "type": "StringLiteralExpr",
+                                          "name": "",
+                                          "line": 76,
+                                          "column": 38,
+                                          "endLine": 76,
+                                          "endColumn": 44
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 77,
+                          "column": 9,
+                          "endLine": 77,
+                          "endColumn": 27,
+                          "attrs": {
+                            "code": "ex2.printNumbers()"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "printNumbers",
+                              "line": 77,
+                              "column": 9,
+                              "endLine": 77,
+                              "endColumn": 26,
+                              "attrs": {
+                                "code": "ex2.printNumbers()",
+                                "args": "[]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "ex2",
+                                  "line": 77,
+                                  "column": 9,
+                                  "endLine": 77,
+                                  "endColumn": 11,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 77,
+                                      "column": 9,
+                                      "endLine": 77,
+                                      "endColumn": 11
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 77,
+                                  "column": 13,
+                                  "endLine": 77,
+                                  "endColumn": 24
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 78,
+                          "column": 9,
+                          "endLine": 78,
+                          "endColumn": 24,
+                          "attrs": {
+                            "code": "ex2.countdown()"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "countdown",
+                              "line": 78,
+                              "column": 9,
+                              "endLine": 78,
+                              "endColumn": 23,
+                              "attrs": {
+                                "code": "ex2.countdown()",
+                                "args": "[]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "ex2",
+                                  "line": 78,
+                                  "column": 9,
+                                  "endLine": 78,
+                                  "endColumn": 11,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 78,
+                                      "column": 9,
+                                      "endLine": 78,
+                                      "endColumn": 11
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 78,
+                                  "column": 13,
+                                  "endLine": 78,
+                                  "endColumn": 21
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 79,
+                          "column": 9,
+                          "endLine": 79,
+                          "endColumn": 26,
+                          "attrs": {
+                            "code": "ex2.doSomething()"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "doSomething",
+                              "line": 79,
+                              "column": 9,
+                              "endLine": 79,
+                              "endColumn": 25,
+                              "attrs": {
+                                "code": "ex2.doSomething()",
+                                "args": "[]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "ex2",
+                                  "line": 79,
+                                  "column": 9,
+                                  "endLine": 79,
+                                  "endColumn": 11,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 79,
+                                      "column": 9,
+                                      "endLine": 79,
+                                      "endColumn": 11
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 79,
+                                  "column": 13,
+                                  "endLine": 79,
+                                  "endColumn": 23
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 80,
+                          "column": 9,
+                          "endLine": 80,
+                          "endColumn": 26,
+                          "attrs": {
+                            "code": "ex2.checkValue(5)"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "checkValue",
+                              "line": 80,
+                              "column": 9,
+                              "endLine": 80,
+                              "endColumn": 25,
+                              "attrs": {
+                                "code": "ex2.checkValue(5)",
+                                "args": "[5]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "ex2",
+                                  "line": 80,
+                                  "column": 9,
+                                  "endLine": 80,
+                                  "endColumn": 11,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 80,
+                                      "column": 9,
+                                      "endLine": 80,
+                                      "endColumn": 11
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 80,
+                                  "column": 13,
+                                  "endLine": 80,
+                                  "endColumn": 22
+                                },
+                                {
+                                  "type": "IntegerLiteralExpr",
+                                  "name": "",
+                                  "line": 80,
+                                  "column": 24,
+                                  "endLine": 80,
+                                  "endColumn": 24
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 81,
+                          "column": 9,
+                          "endLine": 81,
+                          "endColumn": 27,
+                          "attrs": {
+                            "code": "ex2.checkValue(-1)"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "checkValue",
+                              "line": 81,
+                              "column": 9,
+                              "endLine": 81,
+                              "endColumn": 26,
+                              "attrs": {
+                                "code": "ex2.checkValue(-1)",
+                                "args": "[-1]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "ex2",
+                                  "line": 81,
+                                  "column": 9,
+                                  "endLine": 81,
+                                  "endColumn": 11,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 81,
+                                      "column": 9,
+                                      "endLine": 81,
+                                      "endColumn": 11
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 81,
+                                  "column": 13,
+                                  "endLine": 81,
+                                  "endColumn": 22
+                                },
+                                {
+                                  "type": "UnaryExpr",
+                                  "name": "",
+                                  "line": 81,
+                                  "column": 24,
+                                  "endLine": 81,
+                                  "endColumn": 25,
+                                  "children": [
+                                    {
+                                      "type": "IntegerLiteralExpr",
+                                      "name": "",
+                                      "line": 81,
+                                      "column": 25,
+                                      "endLine": 81,
+                                      "endColumn": 25
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 84,
+                          "column": 9,
+                          "endLine": 84,
+                          "endColumn": 46,
+                          "attrs": {
+                            "code": "List<String> list = new ArrayList<>()"
+                          },
+                          "children": [
+                            {
+                              "type": "LineComment",
+                              "name": "",
+                              "line": 83,
+                              "column": 9,
+                              "endLine": 83,
+                              "endColumn": 27,
+                              "value": " 用 List 演示 import"
+                            },
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 84,
+                              "column": 9,
+                              "endLine": 84,
+                              "endColumn": 45,
+                              "attrs": {
+                                "code": "List<String> list = new ArrayList<>()"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "list",
+                                  "line": 84,
+                                  "column": 22,
+                                  "endLine": 84,
+                                  "endColumn": 45,
+                                  "value": "List<String>",
+                                  "attrs": {
+                                    "initializer": "new ArrayList<>()"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "ClassOrInterfaceType",
+                                      "name": "List",
+                                      "line": 84,
+                                      "column": 9,
+                                      "endLine": 84,
+                                      "endColumn": 20,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 84,
+                                          "column": 9,
+                                          "endLine": 84,
+                                          "endColumn": 12
+                                        },
+                                        {
+                                          "type": "ClassOrInterfaceType",
+                                          "name": "String",
+                                          "line": 84,
+                                          "column": 14,
+                                          "endLine": 84,
+                                          "endColumn": 19,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 84,
+                                              "column": 14,
+                                              "endLine": 84,
+                                              "endColumn": 19
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 84,
+                                      "column": 22,
+                                      "endLine": 84,
+                                      "endColumn": 25
+                                    },
+                                    {
+                                      "type": "ObjectCreationExpr",
+                                      "name": "new ArrayList<>",
+                                      "line": 84,
+                                      "column": 29,
+                                      "endLine": 84,
+                                      "endColumn": 45,
+                                      "attrs": {
+                                        "type": "ArrayList<>",
+                                        "hasAnonymousClassBody": "false"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "ClassOrInterfaceType",
+                                          "name": "ArrayList",
+                                          "line": 84,
+                                          "column": 33,
+                                          "endLine": 84,
+                                          "endColumn": 43,
+                                          "children": [
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 84,
+                                              "column": 33,
+                                              "endLine": 84,
+                                              "endColumn": 41
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 85,
+                          "column": 9,
+                          "endLine": 85,
+                          "endColumn": 22,
+                          "attrs": {
+                            "code": "list.add(\"A\")"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "add",
+                              "line": 85,
+                              "column": 9,
+                              "endLine": 85,
+                              "endColumn": 21,
+                              "attrs": {
+                                "code": "list.add(\"A\")",
+                                "args": "[\"A\"]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "list",
+                                  "line": 85,
+                                  "column": 9,
+                                  "endLine": 85,
+                                  "endColumn": 12,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 85,
+                                      "column": 9,
+                                      "endLine": 85,
+                                      "endColumn": 12
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 85,
+                                  "column": 14,
+                                  "endLine": 85,
+                                  "endColumn": 16
+                                },
+                                {
+                                  "type": "StringLiteralExpr",
+                                  "name": "",
+                                  "line": 85,
+                                  "column": 18,
+                                  "endLine": 85,
+                                  "endColumn": 20
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStmt",
+                          "name": "",
+                          "line": 86,
+                          "column": 9,
+                          "endLine": 86,
+                          "endColumn": 22,
+                          "attrs": {
+                            "code": "list.add(\"B\")"
+                          },
+                          "children": [
+                            {
+                              "type": "MethodCallExpr",
+                              "name": "add",
+                              "line": 86,
+                              "column": 9,
+                              "endLine": 86,
+                              "endColumn": 21,
+                              "attrs": {
+                                "code": "list.add(\"B\")",
+                                "args": "[\"B\"]"
+                              },
+                              "children": [
+                                {
+                                  "type": "NameExpr",
+                                  "name": "list",
+                                  "line": 86,
+                                  "column": 9,
+                                  "endLine": 86,
+                                  "endColumn": 12,
+                                  "children": [
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 86,
+                                      "column": 9,
+                                      "endLine": 86,
+                                      "endColumn": 12
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 86,
+                                  "column": 14,
+                                  "endLine": 86,
+                                  "endColumn": 16
+                                },
+                                {
+                                  "type": "StringLiteralExpr",
+                                  "name": "",
+                                  "line": 86,
+                                  "column": 18,
+                                  "endLine": 86,
+                                  "endColumn": 20
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ForEachStmt",
+                          "name": "for-each(…)",
+                          "line": 87,
+                          "column": 9,
+                          "endLine": 89,
+                          "endColumn": 9,
+                          "attrs": {
+                            "var": "String s",
+                            "iterable": "list"
+                          },
+                          "children": [
+                            {
+                              "type": "VariableDeclarationExpr",
+                              "name": "",
+                              "line": 87,
+                              "column": 14,
+                              "endLine": 87,
+                              "endColumn": 21,
+                              "attrs": {
+                                "code": "String s"
+                              },
+                              "children": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "name": "s",
+                                  "line": 87,
+                                  "column": 21,
+                                  "endLine": 87,
+                                  "endColumn": 21,
+                                  "value": "String",
+                                  "children": [
+                                    {
+                                      "type": "ClassOrInterfaceType",
+                                      "name": "String",
+                                      "line": 87,
+                                      "column": 14,
+                                      "endLine": 87,
+                                      "endColumn": 19,
+                                      "children": [
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 87,
+                                          "column": 14,
+                                          "endLine": 87,
+                                          "endColumn": 19
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "SimpleName",
+                                      "name": "",
+                                      "line": 87,
+                                      "column": 21,
+                                      "endLine": 87,
+                                      "endColumn": 21
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "NameExpr",
+                              "name": "list",
+                              "line": 87,
+                              "column": 25,
+                              "endLine": 87,
+                              "endColumn": 28,
+                              "children": [
+                                {
+                                  "type": "SimpleName",
+                                  "name": "",
+                                  "line": 87,
+                                  "column": 25,
+                                  "endLine": 87,
+                                  "endColumn": 28
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BlockStmt",
+                              "name": "",
+                              "line": 87,
+                              "column": 31,
+                              "endLine": 89,
+                              "endColumn": 9,
+                              "children": [
+                                {
+                                  "type": "ExpressionStmt",
+                                  "name": "",
+                                  "line": 88,
+                                  "column": 13,
+                                  "endLine": 88,
+                                  "endColumn": 45,
+                                  "attrs": {
+                                    "code": "System.out.println(\"item: \" + s)"
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "MethodCallExpr",
+                                      "name": "println",
+                                      "line": 88,
+                                      "column": 13,
+                                      "endLine": 88,
+                                      "endColumn": 44,
+                                      "attrs": {
+                                        "code": "System.out.println(\"item: \" + s)",
+                                        "args": "[\"item: \" + s]"
+                                      },
+                                      "children": [
+                                        {
+                                          "type": "FieldAccessExpr",
+                                          "name": "out",
+                                          "line": 88,
+                                          "column": 13,
+                                          "endLine": 88,
+                                          "endColumn": 22,
+                                          "children": [
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "System",
+                                              "line": 88,
+                                              "column": 13,
+                                              "endLine": 88,
+                                              "endColumn": 18,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 88,
+                                                  "column": 13,
+                                                  "endLine": 88,
+                                                  "endColumn": 18
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "SimpleName",
+                                              "name": "",
+                                              "line": 88,
+                                              "column": 20,
+                                              "endLine": 88,
+                                              "endColumn": 22
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "SimpleName",
+                                          "name": "",
+                                          "line": 88,
+                                          "column": 24,
+                                          "endLine": 88,
+                                          "endColumn": 30
+                                        },
+                                        {
+                                          "type": "BinaryExpr",
+                                          "name": "",
+                                          "line": 88,
+                                          "column": 32,
+                                          "endLine": 88,
+                                          "endColumn": 43,
+                                          "children": [
+                                            {
+                                              "type": "StringLiteralExpr",
+                                              "name": "",
+                                              "line": 88,
+                                              "column": 32,
+                                              "endLine": 88,
+                                              "endColumn": 39
+                                            },
+                                            {
+                                              "type": "NameExpr",
+                                              "name": "s",
+                                              "line": 88,
+                                              "column": 43,
+                                              "endLine": 88,
+                                              "endColumn": 43,
+                                              "children": [
+                                                {
+                                                  "type": "SimpleName",
+                                                  "name": "",
+                                                  "line": 88,
+                                                  "column": 43,
+                                                  "endLine": 88,
+                                                  "endColumn": 43
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
